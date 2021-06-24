@@ -2,14 +2,24 @@ html {
     scroll-behavior: smooth;
 }
 .nav-tabs {
-    display: flex !important;
+    /* display: flex !important;
     align-content: center !important;
     align-items: center !important;
-    justify-content: center !important;
+    justify-content: center !important; */
     margin-top: -165px;
     z-index: 1;
 
     
+}
+
+a.nav-link.active span {
+    background: #1A76D1;
+    color: #fff !important;
+    padding: 5px 15px !important;
+}
+
+.departments .department-tab .nav li a {
+    border-bottom: none !important;
 }
 
 .tab-content>.active {
@@ -1432,7 +1442,7 @@ body{
 	Start Departments CSS
 ============================*/
 .departments .department-tab .nav{
-	margin-bottom: 30px;
+	margin-bottom: 0px;
     background:transform;
 	position:relative;
 }
