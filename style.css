@@ -12,6 +12,14 @@ html {
     
 }
 
+.tab-content>.active {
+    padding: 4%;
+    border: 4px solid #1a76d1;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
 .departments .department-tab .nav li {
     background: #ffffff;
     padding: 0 50px;
@@ -1448,7 +1456,7 @@ body{
 	border: none;
 	padding: 0;
 	padding-bottom: 20px;
-	border-bottom:2px solid transparent;
+	border-bottom:4px solid transparent;
 	padding:0 10px 20px 10px;
 }
 .departments .department-tab .nav li a.active{
