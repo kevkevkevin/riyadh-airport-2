@@ -33,7 +33,7 @@ html {
   /* change border radius for the tab , apply corners on top*/
   
   #exTab3 .nav-pills > li > a {
-	border-radius: 4px 4px 0 0 ;
+	/* border-radius: 4px 4px 0 0 ; */
   }
   
   #exTab3 .tab-content {
@@ -55,10 +55,18 @@ a.nav-link.active span {
 
 .tab-content>.active {
     padding: 4%;
-    background: #f6f6f6;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.075);
+    background: #1a76d1;
+    /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.075);
     -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.075);
-    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.075); */
+}
+
+h3 p a .tab-content>.active  {
+	color: #fff !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0 !important;
 }
 
 .departments .department-tab .nav li {
@@ -91,15 +99,25 @@ a.nav-link.active span {
 
 .nav-pills .nav-link, .nav-pills .show>.nav-link {
     text-align: center;
-	background-color: #fff;
+	background-color: #07a7e3;
+    color: #fff;
+	transition: all 0.3s;
 
 }
+.nav-link {
+	transition: all 0.3s !important;
+
+}
+.nav-link:hover {
+    margin-top: -10px
+}
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #000;
-    background-color: #f6f6f6;
-    box-shadow: 0px -10px 20px rgb(0 0 0 / 10%);
+    color: #fff;
+    background-color: #1a76d1;
+    /* box-shadow: 0px -10px 20px rgb(0 0 0 / 10%);
     -webkit-box-shadow: 0px -10px 20px rgb(0 0 0 / 10%);
-    -moz-box-shadow: 0px -10px 20px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0px -10px 20px rgb(0 0 0 / 10%); */
 }
 
 body{
