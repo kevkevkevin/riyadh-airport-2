@@ -11,6 +11,36 @@ html {
 
     
 }
+#clientList_1,
+#clientList_2,
+#clientList_3,
+#clientList_4
+ {
+	
+	padding: 35px 10px;
+}
+
+.hidden {
+	display: none;
+}
+.show {
+	display: block;
+}
+#partners1 {
+	width: 100%;
+    justify-content: center; 
+	margin-bottom: 15px;
+}
+
+.clientImg{
+	padding: 15px;
+}
+
+.clientImg2{
+	padding: 15px;
+}
+
+
 
 #exTab1 .tab-content {
 	color : white;
