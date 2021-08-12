@@ -1,37 +1,4 @@
-/* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
-========================================*/   
-/*=======================================
-[Start Activation Code]
-=========================================
-* Sticky Header JS
-* Search JS
-* Mobile Menu JS
-* Hero Slider JS
-* Testimonial Slider JS
-* Portfolio Slider JS
-* Clients Slider JS
-* Single Portfolio Slider JS
-* Accordion JS
-* Nice Select JS
-* Date Picker JS
-* Counter Up JS
-* Checkbox JS
-* Right Bar JS
-* Video Popup JS
-* Wow JS
-* Scroll Up JS
-* Animate Scroll JS
-* Stellar JS
-* Google Maps JS
-* Preloader JS
-=========================================
-[End Activation Code]
-=========================================*/ 
+
 (function($) {
     "use strict";
      $(document).on('ready', function() {
@@ -320,6 +287,48 @@ Version:	1.1
 	$(window).on('load', function() {
 		$('.preloader').addClass('preloader-deactivate');
 	});
+
+	/*====================
+		BUTTON JS
+	======================*/
+	$(".next-1").click(function(){
+		$("#clientList_1").hide(1000);
+		$("#clientList_2").show(1000);
+		$(".buttonWrap2").show(500);
+		$(".buttonWrap1").hide(500);
+	});
+	$(".next-2").click(function(){
+		$("#clientList_2").hide(1000);
+		$("#clientList_3").show(1000);
+		$(".buttonWrap2").hide(500);
+		$(".buttonWrap3").show(500);
+	});
+	$(".next-3").click(function(){
+		$("#clientList_3").hide(1000);
+		$("#clientList_4").show(1000);
+		$(".buttonWrap3").hide(500);
+		$(".buttonWrap4").show(500);
+	});
+	$(".prev-2").click(function(){
+		$("#clientList_2").hide(1000);
+		$("#clientList_1").show(1000);
+		$(".buttonWrap2").hide(500);
+		$(".buttonWrap1").show(500);
+	});
+	$(".prev-3").click(function(){
+		$("#clientList_3").hide(1000);
+		$("#clientList_2").show(1000);
+		$(".buttonWrap3").hide(500);
+		$(".buttonWrap2").show(500);
+	});
+	$(".prev-4").click(function(){
+		$("#clientList_4").hide(1000);
+		$("#clientList_3").show(1000);
+		$(".buttonWrap4").hide(500);
+		$(".buttonWrap3").show(500);
+	});
+
+
 	
 	
 })(jQuery);
